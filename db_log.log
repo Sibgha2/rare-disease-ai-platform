@@ -1,0 +1,208 @@
+2026-06-19 15:07:28.584 PKT [28976] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-19 15:07:28.589 PKT [28976] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-19 15:07:28.589 PKT [28976] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-19 15:07:28.651 PKT [6952] LOG:  database system was shut down at 2026-06-19 15:07:25 PKT
+2026-06-19 15:07:28.677 PKT [28976] LOG:  database system is ready to accept connections
+2026-06-19 15:08:29.592 PKT [28532] ERROR:  relation "diagnosis_results" does not exist at character 15
+2026-06-19 15:08:29.592 PKT [28532] STATEMENT:  SELECT * FROM diagnosis_results
+2026-06-19 15:09:06.710 PKT [26708] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-19 15:09:06.715 PKT [26708] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-19 15:09:06.715 PKT [26708] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-19 15:09:06.772 PKT [29312] LOG:  database system was interrupted; last known up at 2026-06-19 15:07:28 PKT
+2026-06-19 15:09:06.971 PKT [29312] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-19 15:09:06.977 PKT [29312] LOG:  redo starts at 0/1574C90
+2026-06-19 15:09:06.979 PKT [29312] LOG:  invalid record length at 0/157AD90: expected at least 24, got 0
+2026-06-19 15:09:06.979 PKT [29312] LOG:  redo done at 0/157AD58 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-19 15:09:06.989 PKT [11028] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-19 15:09:07.014 PKT [11028] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.011 s, total=0.032 s; sync files=9, longest=0.002 s, average=0.002 s; distance=24 kB, estimate=24 kB; lsn=0/157AD90, redo lsn=0/157AD90
+2026-06-19 15:09:07.060 PKT [26708] LOG:  database system is ready to accept connections
+2026-06-19 15:14:59.630 PKT [27400] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-19 15:14:59.635 PKT [27400] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-19 15:14:59.635 PKT [27400] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-19 15:14:59.699 PKT [22532] LOG:  database system was interrupted; last known up at 2026-06-19 15:09:07 PKT
+2026-06-19 15:14:59.941 PKT [22532] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-19 15:14:59.947 PKT [22532] LOG:  redo starts at 0/157AE08
+2026-06-19 15:14:59.962 PKT [22532] LOG:  invalid record length at 0/15A4180: expected at least 24, got 0
+2026-06-19 15:14:59.962 PKT [22532] LOG:  redo done at 0/15A38C0 system usage: CPU: user: 0.00 s, system: 0.01 s, elapsed: 0.01 s
+2026-06-19 15:14:59.966 PKT [31792] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-19 15:15:00.037 PKT [31792] LOG:  checkpoint complete: wrote 56 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.051 s, total=0.073 s; sync files=43, longest=0.002 s, average=0.002 s; distance=164 kB, estimate=164 kB; lsn=0/15A4180, redo lsn=0/15A4180
+2026-06-19 15:15:00.077 PKT [27400] LOG:  database system is ready to accept connections
+2026-06-19 15:19:59.046 PKT [31792] LOG:  checkpoint starting: time
+2026-06-19 15:20:00.239 PKT [31792] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.163 s, sync=0.015 s, total=1.194 s; sync files=10, longest=0.003 s, average=0.002 s; distance=8 kB, estimate=149 kB; lsn=0/15A6538, redo lsn=0/15A64E0
+2026-06-19 20:43:13.015 PKT [31792] LOG:  checkpoint starting: time
+2026-06-19 20:43:13.427 PKT [31792] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.325 s, sync=0.019 s, total=0.413 s; sync files=4, longest=0.012 s, average=0.005 s; distance=1 kB, estimate=134 kB; lsn=0/15A6B58, redo lsn=0/15A6B00
+2026-06-20 00:02:51.187 PKT [31792] LOG:  checkpoint starting: time
+2026-06-20 00:02:51.527 PKT [31792] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.311 s, sync=0.006 s, total=0.340 s; sync files=4, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=121 kB; lsn=0/15A7328, redo lsn=0/15A72D0
+2026-06-20 00:17:51.533 PKT [31792] LOG:  checkpoint starting: time
+2026-06-20 00:17:51.914 PKT [31792] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.328 s, sync=0.020 s, total=0.382 s; sync files=4, longest=0.013 s, average=0.005 s; distance=2 kB, estimate=109 kB; lsn=0/15A7C98, redo lsn=0/15A7C40
+2026-06-20 00:42:51.937 PKT [31792] LOG:  checkpoint starting: time
+2026-06-20 00:42:52.302 PKT [31792] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.331 s, sync=0.009 s, total=0.365 s; sync files=4, longest=0.005 s, average=0.003 s; distance=2 kB, estimate=98 kB; lsn=0/15A87D8, redo lsn=0/15A8780
+2026-06-20 15:26:15.774 PKT [21760] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:26:15.782 PKT [21760] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:26:15.782 PKT [21760] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:26:15.858 PKT [35548] LOG:  database system was interrupted; last known up at 2026-06-20 00:42:52 PKT
+2026-06-20 15:26:18.794 PKT [35548] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:26:18.799 PKT [35548] LOG:  redo starts at 0/15A8780
+2026-06-20 15:26:18.799 PKT [35548] LOG:  invalid record length at 0/15A8888: expected at least 24, got 0
+2026-06-20 15:26:18.799 PKT [35548] LOG:  redo done at 0/15A8850 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 15:26:18.812 PKT [31080] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:26:18.834 PKT [31080] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.004 s, total=0.028 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15A8888, redo lsn=0/15A8888
+2026-06-20 15:26:18.877 PKT [21760] LOG:  database system is ready to accept connections
+2026-06-20 15:36:18.842 PKT [31080] LOG:  checkpoint starting: time
+2026-06-20 15:36:19.198 PKT [31080] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.327 s, sync=0.016 s, total=0.357 s; sync files=4, longest=0.012 s, average=0.004 s; distance=3 kB, estimate=3 kB; lsn=0/15A9558, redo lsn=0/15A9500
+2026-06-20 15:46:47.891 PKT [31132] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:46:47.898 PKT [31132] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:46:47.898 PKT [31132] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:46:47.961 PKT [29960] LOG:  database system was interrupted; last known up at 2026-06-20 15:36:19 PKT
+2026-06-20 15:46:48.398 PKT [29960] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:46:48.403 PKT [29960] LOG:  redo starts at 0/15A9500
+2026-06-20 15:46:48.403 PKT [29960] LOG:  invalid record length at 0/15A9608: expected at least 24, got 0
+2026-06-20 15:46:48.403 PKT [29960] LOG:  redo done at 0/15A95D0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 15:46:48.414 PKT [36044] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:46:48.433 PKT [36044] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.027 s; sync files=2, longest=0.003 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15A9608, redo lsn=0/15A9608
+2026-06-20 15:46:48.462 PKT [31132] LOG:  database system is ready to accept connections
+2026-06-20 15:49:22.855 PKT [33880] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:49:22.859 PKT [33880] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:49:22.859 PKT [33880] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:49:22.919 PKT [21172] LOG:  database system was interrupted; last known up at 2026-06-20 15:46:48 PKT
+2026-06-20 15:49:23.332 PKT [21172] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:49:23.337 PKT [21172] LOG:  redo starts at 0/15A9680
+2026-06-20 15:49:23.337 PKT [21172] LOG:  invalid record length at 0/15A96B8: expected at least 24, got 0
+2026-06-20 15:49:23.337 PKT [21172] LOG:  redo done at 0/15A9680 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 15:49:23.348 PKT [28972] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:49:23.366 PKT [28972] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.025 s; sync files=2, longest=0.003 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15A96B8, redo lsn=0/15A96B8
+2026-06-20 15:49:23.395 PKT [33880] LOG:  database system is ready to accept connections
+2026-06-20 15:49:52.404 PKT [34704] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:49:52.408 PKT [34704] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:49:52.408 PKT [34704] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:49:52.467 PKT [2636] LOG:  database system was interrupted; last known up at 2026-06-20 15:49:23 PKT
+2026-06-20 15:49:52.899 PKT [2636] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:49:52.904 PKT [2636] LOG:  invalid record length at 0/15A9730: expected at least 24, got 0
+2026-06-20 15:49:52.904 PKT [2636] LOG:  redo is not required
+2026-06-20 15:49:52.912 PKT [27832] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:49:52.930 PKT [27832] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.023 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15A9730, redo lsn=0/15A9730
+2026-06-20 15:49:52.957 PKT [34704] LOG:  database system is ready to accept connections
+2026-06-20 15:53:24.055 PKT [25096] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:53:24.060 PKT [25096] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:53:24.060 PKT [25096] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:53:24.121 PKT [2280] LOG:  database system was interrupted; last known up at 2026-06-20 15:49:52 PKT
+2026-06-20 15:53:24.544 PKT [2280] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:53:24.550 PKT [2280] LOG:  redo starts at 0/15A97A8
+2026-06-20 15:53:24.553 PKT [2280] LOG:  invalid record length at 0/15AA570: expected at least 24, got 0
+2026-06-20 15:53:24.553 PKT [2280] LOG:  redo done at 0/15AA538 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 15:53:24.559 PKT [31192] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:53:24.585 PKT [31192] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.008 s, total=0.029 s; sync files=5, longest=0.002 s, average=0.002 s; distance=3 kB, estimate=3 kB; lsn=0/15AA570, redo lsn=0/15AA570
+2026-06-20 15:53:24.614 PKT [25096] LOG:  database system is ready to accept connections
+2026-06-20 15:56:49.800 PKT [7464] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:56:49.805 PKT [7464] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:56:49.805 PKT [7464] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:56:49.869 PKT [37124] LOG:  database system was interrupted; last known up at 2026-06-20 15:53:24 PKT
+2026-06-20 15:56:50.398 PKT [37124] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:56:50.404 PKT [37124] LOG:  redo starts at 0/15AA5E8
+2026-06-20 15:56:50.404 PKT [37124] LOG:  invalid record length at 0/15AA620: expected at least 24, got 0
+2026-06-20 15:56:50.404 PKT [37124] LOG:  redo done at 0/15AA5E8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 15:56:50.416 PKT [34164] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:56:50.435 PKT [34164] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.027 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15AA620, redo lsn=0/15AA620
+2026-06-20 15:56:50.463 PKT [7464] LOG:  database system is ready to accept connections
+2026-06-20 15:59:04.201 PKT [3532] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 15:59:04.206 PKT [3532] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 15:59:04.206 PKT [3532] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 15:59:04.266 PKT [3040] LOG:  database system was interrupted; last known up at 2026-06-20 15:56:50 PKT
+2026-06-20 15:59:04.678 PKT [3040] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 15:59:04.683 PKT [3040] LOG:  redo starts at 0/15AA698
+2026-06-20 15:59:04.686 PKT [3040] LOG:  invalid record length at 0/15AB5E8: expected at least 24, got 0
+2026-06-20 15:59:04.686 PKT [3040] LOG:  redo done at 0/15AB5B0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 15:59:04.693 PKT [29040] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 15:59:04.718 PKT [29040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.008 s, total=0.028 s; sync files=5, longest=0.002 s, average=0.002 s; distance=3 kB, estimate=3 kB; lsn=0/15AB5E8, redo lsn=0/15AB5E8
+2026-06-20 15:59:04.748 PKT [3532] LOG:  database system is ready to accept connections
+2026-06-20 16:04:04.726 PKT [29040] LOG:  checkpoint starting: time
+2026-06-20 16:04:05.083 PKT [29040] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.325 s, sync=0.009 s, total=0.357 s; sync files=4, longest=0.004 s, average=0.003 s; distance=4 kB, estimate=4 kB; lsn=0/15AC7D0, redo lsn=0/15AC778
+2026-06-20 16:14:04.087 PKT [29040] LOG:  checkpoint starting: time
+2026-06-20 16:14:04.437 PKT [29040] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.317 s, sync=0.009 s, total=0.350 s; sync files=4, longest=0.004 s, average=0.003 s; distance=4 kB, estimate=4 kB; lsn=0/15ADB48, redo lsn=0/15ADAF0
+2026-06-20 16:19:04.445 PKT [29040] LOG:  checkpoint starting: time
+2026-06-20 16:19:04.802 PKT [29040] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.328 s, sync=0.007 s, total=0.357 s; sync files=4, longest=0.003 s, average=0.002 s; distance=5 kB, estimate=5 kB; lsn=0/15AF088, redo lsn=0/15AF030
+2026-06-20 17:47:26.339 PKT [13708] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-20 17:47:26.347 PKT [13708] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-20 17:47:26.348 PKT [13708] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-20 17:47:26.447 PKT [14972] LOG:  database system was interrupted; last known up at 2026-06-20 16:19:04 PKT
+2026-06-20 17:47:27.084 PKT [14972] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-20 17:47:27.093 PKT [14972] LOG:  redo starts at 0/15AF030
+2026-06-20 17:47:27.093 PKT [14972] LOG:  invalid record length at 0/15AF138: expected at least 24, got 0
+2026-06-20 17:47:27.093 PKT [14972] LOG:  redo done at 0/15AF100 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-20 17:47:27.117 PKT [34660] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-20 17:47:27.145 PKT [34660] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.005 s, total=0.047 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/15AF138, redo lsn=0/15AF138
+2026-06-20 17:47:27.194 PKT [13708] LOG:  database system is ready to accept connections
+2026-06-20 18:37:27.219 PKT [34660] LOG:  checkpoint starting: time
+2026-06-20 18:37:27.580 PKT [34660] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.323 s, sync=0.007 s, total=0.362 s; sync files=4, longest=0.002 s, average=0.002 s; distance=5 kB, estimate=5 kB; lsn=0/15B0818, redo lsn=0/15B07C0
+2026-06-21 12:50:11.804 PKT [34660] LOG:  checkpoint starting: time
+2026-06-21 12:50:12.187 PKT [34660] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.336 s, sync=0.006 s, total=0.384 s; sync files=4, longest=0.002 s, average=0.002 s; distance=6 kB, estimate=6 kB; lsn=0/15B20B0, redo lsn=0/15B2058
+2026-06-21 13:58:43.671 PKT [34660] LOG:  checkpoint starting: time
+2026-06-21 13:58:44.062 PKT [34660] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.343 s, sync=0.020 s, total=0.392 s; sync files=4, longest=0.013 s, average=0.005 s; distance=6 kB, estimate=6 kB; lsn=0/15B3AD8, redo lsn=0/15B3A80
+2026-06-21 17:11:19.918 PKT [18848] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-21 17:11:19.922 PKT [18848] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-21 17:11:19.922 PKT [18848] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-21 17:11:19.974 PKT [13532] LOG:  database system was interrupted; last known up at 2026-06-21 13:58:44 PKT
+2026-06-21 17:11:20.258 PKT [13532] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-21 17:11:20.262 PKT [13532] LOG:  redo starts at 0/15B3A80
+2026-06-21 17:11:20.262 PKT [13532] LOG:  invalid record length at 0/15B3B88: expected at least 24, got 0
+2026-06-21 17:11:20.262 PKT [13532] LOG:  redo done at 0/15B3B50 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-21 17:11:20.270 PKT [3084] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-21 17:11:20.285 PKT [3084] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15B3B88, redo lsn=0/15B3B88
+2026-06-21 17:11:20.312 PKT [18848] LOG:  database system is ready to accept connections
+2026-06-21 17:16:20.286 PKT [3084] LOG:  checkpoint starting: time
+2026-06-21 17:16:21.828 PKT [3084] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.479 s, sync=0.033 s, total=1.542 s; sync files=15, longest=0.011 s, average=0.003 s; distance=46 kB, estimate=46 kB; lsn=0/15BF668, redo lsn=0/15BF610
+2026-06-21 21:11:31.758 PKT [12256] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-21 21:11:31.765 PKT [12256] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-21 21:11:31.765 PKT [12256] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-21 21:11:31.862 PKT [16580] LOG:  database system was interrupted; last known up at 2026-06-21 17:16:21 PKT
+2026-06-21 21:11:35.153 PKT [16580] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-21 21:11:35.159 PKT [16580] LOG:  redo starts at 0/15BF610
+2026-06-21 21:11:35.159 PKT [16580] LOG:  invalid record length at 0/15BF718: expected at least 24, got 0
+2026-06-21 21:11:35.159 PKT [16580] LOG:  redo done at 0/15BF6E0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-21 21:11:35.179 PKT [11992] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-21 21:11:35.200 PKT [11992] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.038 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15BF718, redo lsn=0/15BF718
+2026-06-21 21:11:35.233 PKT [12256] LOG:  database system is ready to accept connections
+2026-06-21 21:16:35.207 PKT [11992] LOG:  checkpoint starting: time
+2026-06-21 21:16:35.786 PKT [11992] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.539 s, sync=0.009 s, total=0.579 s; sync files=5, longest=0.003 s, average=0.002 s; distance=2 kB, estimate=2 kB; lsn=0/15C0148, redo lsn=0/15C00F0
+2026-06-22 19:44:08.061 PKT [24064] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-22 19:44:08.065 PKT [24064] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-22 19:44:08.065 PKT [24064] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-22 19:44:08.146 PKT [10740] LOG:  database system was interrupted; last known up at 2026-06-21 21:16:35 PKT
+2026-06-22 19:44:12.026 PKT [10740] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-22 19:44:12.036 PKT [10740] LOG:  redo starts at 0/15C00F0
+2026-06-22 19:44:12.036 PKT [10740] LOG:  invalid record length at 0/15C01F8: expected at least 24, got 0
+2026-06-22 19:44:12.036 PKT [10740] LOG:  redo done at 0/15C01C0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-22 19:44:12.054 PKT [26312] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-22 19:44:12.086 PKT [26312] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.006 s, total=0.041 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/15C01F8, redo lsn=0/15C01F8
+2026-06-22 19:44:12.137 PKT [21336] FATAL:  the database system is not yet accepting connections
+2026-06-22 19:44:12.137 PKT [21336] DETAIL:  Consistent recovery state has not been yet reached.
+2026-06-22 19:44:12.137 PKT [24064] LOG:  database system is ready to accept connections
+2026-06-22 19:49:12.085 PKT [26312] LOG:  checkpoint starting: time
+2026-06-22 19:49:12.243 PKT [26312] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.114 s, sync=0.014 s, total=0.159 s; sync files=2, longest=0.012 s, average=0.007 s; distance=0 kB, estimate=0 kB; lsn=0/15C0498, redo lsn=0/15C0440
+2026-06-22 21:46:58.441 PKT [24064] LOG:  could not reserve shared memory region (addr=0000018E2BF00000) for child 00000000000015B8: error code 487
+2026-06-25 13:56:57.328 PKT [24752] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-25 13:56:57.335 PKT [24752] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-25 13:56:57.335 PKT [24752] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-25 13:56:57.432 PKT [25068] LOG:  database system was interrupted; last known up at 2026-06-22 19:49:12 PKT
+2026-06-25 13:57:00.020 PKT [25068] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-25 13:57:00.025 PKT [25068] LOG:  redo starts at 0/15C0440
+2026-06-25 13:57:00.025 PKT [25068] LOG:  invalid record length at 0/15C0548: expected at least 24, got 0
+2026-06-25 13:57:00.025 PKT [25068] LOG:  redo done at 0/15C0510 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-25 13:57:00.033 PKT [13232] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-25 13:57:00.050 PKT [13232] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.022 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15C0548, redo lsn=0/15C0548
+2026-06-25 13:57:00.078 PKT [24752] LOG:  database system is ready to accept connections
+2026-06-25 14:02:00.048 PKT [13232] LOG:  checkpoint starting: time
+2026-06-25 14:02:00.418 PKT [13232] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.317 s, sync=0.018 s, total=0.370 s; sync files=4, longest=0.012 s, average=0.005 s; distance=3 kB, estimate=3 kB; lsn=0/15C14D8, redo lsn=0/15C1480
+2026-06-29 13:20:41.903 PKT [14120] LOG:  starting PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.29.30159, 64-bit
+2026-06-29 13:20:41.907 PKT [14120] LOG:  listening on IPv6 address "::1", port 5432
+2026-06-29 13:20:41.907 PKT [14120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-29 13:20:41.978 PKT [8072] LOG:  database system was interrupted; last known up at 2026-06-25 14:02:00 PKT
+2026-06-29 13:20:44.235 PKT [8072] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-29 13:20:44.240 PKT [8072] LOG:  redo starts at 0/15C1480
+2026-06-29 13:20:44.240 PKT [8072] LOG:  invalid record length at 0/15C1588: expected at least 24, got 0
+2026-06-29 13:20:44.240 PKT [8072] LOG:  redo done at 0/15C1550 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-29 13:20:44.250 PKT [7136] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-29 13:20:44.267 PKT [7136] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.024 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15C1588, redo lsn=0/15C1588
+2026-06-29 13:20:44.298 PKT [14120] LOG:  database system is ready to accept connections
+2026-06-29 13:25:44.280 PKT [7136] LOG:  checkpoint starting: time
+2026-06-29 13:25:44.675 PKT [7136] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.327 s, sync=0.018 s, total=0.396 s; sync files=4, longest=0.012 s, average=0.005 s; distance=5 kB, estimate=5 kB; lsn=0/15C2A78, redo lsn=0/15C2A20

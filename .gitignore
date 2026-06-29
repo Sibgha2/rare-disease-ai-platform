@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Local Database Files (PostgreSQL Data and logs)
+db_data/
+db_log.log
+logs/
+
+# User Uploads and Dynamic Output Files (ignoring contents but keeping the directories)
+uploads/*
+!uploads/.gitkeep
+
+annotations/*
+!annotations/.gitkeep
+
+explanations/*
+!explanations/.gitkeep
+
+reports/*
+!reports/.gitkeep
+
+sent_emails/*
+!sent_emails/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.env
+.DS_Store
+Thumbs.db
+~$*
+.gemini/
+*.pdf
+# Keep these specific documentation PDFs
+!RareDiseaseAI_System_Overview.pdf
+!Research_Paper_Foundation.pdf
